@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- file fontawsome -->
+      <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <!-- bootstrap -->
+       <link rel="stylesheet" href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <!-- file css -->
+     <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+ <section class="hero-section" id="home">
+
+    <div class="hero">
+
+        <!-- ================= NAVBAR ================= -->
+
+        <nav class="navbar navbar-expand-lg hero-navbar px-3 px-lg-4">
+
+            <!-- LOGO -->
+            <a href="#home" class="navbar-brand hero-logo">
+                TrippPlan
+            </a>
+
+
+
+
+
+            <!-- NAVBAR CONTENT -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <!-- LINKS -->
+                <div class="hero-nav-links mx-auto">
+
+                    
+                    <a href="#Planning my trip">Trip planning</a>
+                    <a href="#Details">Trip Details</a>
+                    <a href="#Contact Information">Contact Information</a>
+
+                </div>
+
+
+                <!-- BUTTONS -->
+                <div class="hero-actions">
+
+                    <button class="language-btn">
+                        Ab
+                    </button>
+
+                    <button class="language-btn active">
+                        En
+                    </button>
+
+                    <button class="login-btn">
+                        Login
+                    </button>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- ================= HERO CONTENT ================= -->
+
+        <div class="hero-content text-center">
+
+            <h1>
+                Your next trip starts here
+            </h1>
+
+            <p>
+                Choose your destination, and tell us what <br>
+                    suits you... and we will plan your entire trip program.
+            </p>
+
+
+            <!-- ================= SEARCH ================= -->
+
+            <div class="hero-search">
+
+                <!-- DATE -->
+                <div class="search-item">
+
+                    <i class="fa-solid fa-calendar-days"></i>
+
+                    <span>
+                        Date
+                    </span>
+
+                </div>
+
+
+                <div class="search-divider"></div>
+
+
+                <!-- BUDGET -->
+                <div class="search-item">
+
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>
+                        Budget
+                    </span>
+
+                </div>
+
+
+                <div class="search-divider"></div>
+
+
+                <!-- GUEST -->
+                <div class="search-item">
+                    <i class="fa-solid fa-question"></i>
+
+                    <span>
+                        Guest
+                    </span>
+
+                </div>
+
+
+                <!-- SEARCH BUTTON -->
+                <button class="search-btn">
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+<section class="intro" id="Planning my trip">
+<div class="page">
+
+        <!-- المحتوى -->
+        <main class="container">
+
+            <!-- خطوات إنشاء الرحلة -->
+            <div class="steps">
+
+                <div class="step active">
+                    <div class="circle">1</div>
+                    <span>Basic Data</span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle">2</div>
+                    <span>إCreating the program</span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle">3</div>
+                    <span>confirmation</span>
+                </div>
+
+            </div>
+
+
+            <!-- العنوان -->
+            
+
+                <h1>Tell us about your trip.</h1>
+
+                <p>
+                Please fill in the following details so we can create a suitable itinerary for your trip.
+                </p>
+
+            
+
+
+            <!-- الفورم -->
+            <div class="form-box">
+
+                <div class="form-grid">
+
+                    <!-- الوجهة -->
+                    <div class="field">
+                        <label>
+                            <i class="fa-solid fa-location-dot"></i>
+                        Destination
+                        </label>
+
+                        <select class="select" aria-label="الوجهة">
+                            <option value="cairo">Cairo</option>
+                            <option value="alexandria">Alexandria</option>
+                            <option value="hurghada">Hurghada</option>
+                            <option value="sharm">Sharm El-Sheikh</option>
+                            <option value="luxor">Luxor</option>
+                     </select>
+                    </div>
+
+
+                    <!-- نوع الرحلة -->
+                    <div class="field">
+                        <label>
+                            <i class="fa-solid fa-suitcase-rolling"></i>
+                           Trip type
+                        </label>
+
+                        <select class="select" aria-label="توع الرحلة">
+                            
+                            <option value="adventure">adventure</option>
+                            <option value="relaxation">relaxation</option>
+                            <option value="cultural">Cultural</option>
+                            <option value="family">Family-friendly</option>
+                        </select>
+                    </div>
+
+
+                    <!-- نوع المسافرين -->
+                    <div class="field">
+                        <label>
+                            <i class="fa-solid fa-user-group"></i>
+                            Traveler type
+                        </label>
+
+                        <select class="select" aria-label="نوع المسافرين">
+                            <option value="alone">individual</option>
+                            <option value="couple">A couple</option>
+                            <option value="family">family</option>
+                            <option value="friends">friends</option>
+                        </select>
+                    </div>
+
+
+                    <!-- مدة الإقامة -->
+                    <div class="field">
+                        <label>
+                            <i class="fa-regular fa-calendar-days"></i>
+                            Duration of stay
+                        </label>
+
+                        <select class="select" aria-label="مده الاقامة">
+                            <option value="2">Two days</option>
+                            <option value="3">3 days</option>
+                            <option value="5">5 days</option>
+                            <option value="7">week</option>
+                            <option value="14">Two week</option>
+                        </select>
+                    </div>
+
+
+                    <!-- هل يوجد أطفال -->
+                    <div class="field children">
+
+                        <label>
+                            <i class="fa-solid fa-child-reaching"></i>
+                         Are there any children?
+                        </label>
+
+                        <div class="yes-no">
+
+                            <button class="no">
+                                No
+                            </button>
+
+                            <button class="yes active-btn">
+                              Yes
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- عدد الأشخاص -->
+                    <div class="field">
+
+                        <label>
+                            <i class="fa-solid fa-user"></i>
+                            Number of people
+                        </label>
+
+                        <div class="counter">
+
+                            <button>−</button>
+
+                            <span>2</span>
+
+                            <button>+</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- زر التالي -->
+                <button class="next-btn">
+                   Next
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+            </div>
+
+        </main>
+
+
+        <!-- الزخرفة السفلية -->
+        <div class="bottom-decoration">
+            <div class="mountain mountain1"></div>
+            <div class="mountain mountain2"></div>
+            <div class="mountain mountain3"></div>
+
+            <i class="fa-solid fa-plane plane-bottom"></i>
+        </div>
+
+    </div>
+    </section>
+ 
+<!-- Day one-->
+ <!-- timeline -->
+ <section class="py-5 bg-light" id="Details">
+  <div class="container" style="max-width: 650px;">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <div>
+        <h4 class="fw-bold mb-1">Day One</h4>
+        <p class="text-muted small mb-0"><i class="fa-regular fa-calendar-days me-1"></i> Saturday, April 12</p>
+      </div>
+      <a href="#" class="text-decoration-none text-primary fw-semibold small">
+        <i class="fa-solid fa-arrow-left me-1"></i>Back to Program
+      </a>
+    </div>
+    <!-- activity -->
+     <div class="d-flex flex-column gap-3 mb-4">
+      <img src="./images/day1(1).jpg" class="card-img hero-img" alt="Luxor">
+      <div class="card border-0 shadow-sm rounded-4 p-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-3">
+            <img src="./images/day1(2).jpg" class="rounded-3 activity-img" alt="Arrival in Luxor">
+            <div>
+              <h6 class="fw-bold mb-1 text-dark">Arrival in Luxor</h6>
+              <p class="text-muted small mb-0">Check-in and rest at the hotel</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 ms-auto ms-sm-0">
+           <span class="text-muted small fw-semibold">10:00 AM</span>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 shadow-sm rounded-4 p-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-3">
+            <img src="./images/day1(3).jpg" class="rounded-3 activity-img" alt="Luxor Temple">
+            <div>
+              <h6 class="fw-bold mb-1 text-dark">Luxor Temple Tour</h6>
+              <p class="text-muted small mb-0">Explore the surrounding area</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 ms-auto ms-sm-0">
+            <span class="text-muted small fw-semibold">3:00PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 shadow-sm rounded-4 p-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-3">
+            <img src="./images/day1(4).jpg" class="rounded-3 activity-img" alt="Nile Activity">
+            <div>
+              <h6 class="fw-bold mb-1 table-dark">Evening Activity - Nile River</h6>
+              <p class="text-muted small mb-0">Falucca ride and sunset view</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 ms-auto ms-sm-0">
+            <span class="text-muted small fw-semibold">5:00 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 shadow-sm rounded-4 p-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-3">
+            <img src="./images/day1(5).jpg" class="rounded-3 activity-img" alt="Dinner">
+            <div>
+              <h6 class="fw-bold mb-1 text-dark">Dinner</h6>
+              <p class="text-muted small mb-0">At the hotel resturant</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 ms-auto ms-sm-0">
+            <span class="text-muted small fw-semibold">8:00 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 shadow-sm rounded-4 p-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-3">
+            <img src="./images/day1(6).jpg" class="rounded-3 activity-img" alt="Room">
+            <div>
+              <h6 class="fw-bold mb-1 text-dark">Sleeping</h6>
+              <p class="text-muted small mb-0">Rest time for the night</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 ms-auto ms-sm-0">
+            <span class="text-muted small fw-semibold">10:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+     </div>
+     <!-- anchor -->
+      <div class="text-center mt-4">
+        <button class="btn btn-primary w-100 py-3 rounded-pill fw-bold shadow-sm d-flex align-items-center justify-content-center gap-2">
+          Next Day <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+  </div>
+ </section>
+
+<!-- Day Two -->
+
+<section class="trip-page">
+        <div class="container">
+            <div class="card-day-two">
+                <div class="card-trip">
+                    <div class="trip-img">
+                        <img src="./images/day2.png" alt="">
+                        <div class="hero-overlay">
+                        </div>
+                        <div class="day-content">
+                            <h3>Day Two</h3>
+                            <p>Tuseday , April 12</p>
+                        </div>
+                    </div>
+
+                    <table class="trip-table">
+
+                        <thead>
+                            <tr>
+                                <th>Activity</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <div class="activity-info">
+
+                                        <div class="icon">
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </div>
+
+                                        <div class="activity-details">
+                                            <h3>Breakfast</h3>
+                                            <p>Breakfast at the hotel</p>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td class="trip-time">
+                                    <span>8:00</span>
+                                    <span class="gray">AM</span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="activity-info">
+
+                                        <div class="icon">
+                                            <i class="fa-solid fa-building-columns"></i>
+                                        </div>
+
+                                        <div class="activity-details">
+                                            <h3>Visit Karnak Temple</h3>
+                                            <p>Explore Karnak Temple and enjoy the site</p>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td class="trip-time">
+                                    <span>11:00</span>
+                                    <span class="gray">AM</span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="activity-info">
+
+                                        <div class="icon">
+                                            <i class="fa-solid fa-burger"></i>
+                                        </div>
+
+                                        <div class="activity-details">
+                                            <h3>Lunch</h3>
+                                            <p>Lunch at a local restaurant</p>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td class="trip-time">
+                                    <span>1:00</span>
+                                    <span class="gray">PM</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="activity-info">
+
+                                        <div class="icon">
+                                            <i class="fa-solid fa-building-columns"></i>
+                                        </div>
+
+                                        <div class="activity-details">
+                                            <h3>Visit Luxor Temple</h3>
+                                            <p>Explore Luxor Temple</p>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td class="trip-time">
+                                    <span>4:00</span>
+                                    <span class="gray">PM</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="activity-info">
+
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed"></i>
+                                        </div>
+
+                                        <div class="activity-details">
+                                            <h3>Return to Hotel</h3>
+                                            <p>Return to the hotel and relax</p>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td class="trip-time">
+                                    <span>8:00</span>
+                                    <span class="gray">PM</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                       <div class="day-navigation">
+
+                        <button class="previous-day">
+                            ← Day One
+                        </button>
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Contact -->
+<section class="contact-section" id="Contact Information">
+
+    <!-- عنوان السيكشن -->
+    <div class="contact-hero">
+
+        <div class="contact-hero-content">
+
+            <h1>تواصل معنا</h1>
+
+            <p>
+                نحن هنا لمساعدتك في رحلتك، لا تتردد في التواصل معنا
+                لأي استفسار أو دعم تحتاجه.
+            </p>
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <!-- كروت التواصل -->
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <div class="contact-icon whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+
+                <h3>واتساب</h3>
+                <p>تواصل معنا عبر الواتساب</p>
+
+                <strong>+20 100 123 4567</strong>
+
+                <a href="https://wa.me/201001234567"
+                   class="contact-btn whatsapp-btn">
+                    بدء المحادثة
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <h3>البريد الإلكتروني</h3>
+                <p>راسلنا على الإيميل</p>
+
+                <strong>info@tripplan.com</strong>
+
+                <a href="mailto:info@tripplan.com"
+                   class="contact-btn email-btn">
+                    إرسال بريد
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon phone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <h3>رقم الهاتف</h3>
+                <p>اتصل بنا مباشرة</p>
+
+                <strong>+20 2 1234 5678</strong>
+
+                <a href="tel:+20212345678"
+                   class="contact-btn phone-btn">
+                    اتصل الآن
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon location">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <h3>العنوان</h3>
+                <p>مقر الشركة</p>
+
+                <strong class="address">
+                    القاهرة - مصر<br>
+                    مبنى رقم 12، شارع النيل
+                </strong>
+
+                <a href="https://maps.google.com"
+                   target="_blank"
+                   class="contact-btn location-btn">
+                    عرض على الخريطة
+                    <i class="fa-solid fa-location-arrow"></i>
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon clock">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <h3>مواعيد العمل</h3>
+                <p>من الأحد إلى الخميس</p>
+
+                <strong>9:00 ص - 6:00 م</strong>
+
+                <div class="contact-btn time-btn">
+                    أوقات العمل
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- الجزء السفلي -->
+        <div class="contact-bottom">
+
+            <!-- الفورم -->
+            <div class="contact-box">
+
+                <div class="box-title">
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    <div>
+                        <h2>أرسل لنا رسالة</h2>
+                        <p>
+                            املأ النموذج التالي وسنقوم بالرد عليك
+                            في أقرب وقت ممكن.
+                        </p>
+                    </div>
+                </div>
+
+
+                <form>
+
+                    <div class="form-row">
+
+                        <div class="input-group">
+                            <label>الاسم الكامل <span>*</span></label>
+                            <input type="text"
+                                   placeholder="أدخل اسمك الكامل">
+                        </div>
+
+                        <div class="input-group">
+                            <label>البريد الإلكتروني <span>*</span></label>
+                            <input type="email"
+                                   placeholder="example@domain.com">
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+                        <label>رقم الهاتف (اختياري)</label>
+
+                        <input type="tel"
+                               placeholder="أدخل رقم هاتفك">
+                    </div>
+
+
+                    <div class="input-group">
+                        <label>نوع الاستفسار</label>
+
+                        <select>
+                            <option>اختر نوع الاستفسار</option>
+                            <option>حجز رحلة</option>
+                            <option>استفسار عام</option>
+                            <option>دعم فني</option>
+                        </select>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label>رسالتك <span>*</span></label>
+
+                        <textarea
+                            placeholder="اكتب رسالتك هنا..."></textarea>
+                    </div>
+
+
+                    <button type="submit">
+                        إرسال الرسالة
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- اليمين -->
+            <div class="contact-side">
+
+                <!-- الخريطة -->
+                <div class="contact-box map-box">
+
+                    <div class="box-title">
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h2>موقعنا على الخريطة</h2>
+                            <p>يمكنك زيارتنا في مقر الشركة</p>
+                        </div>
+                    </div>
+
+                    <div class="map">
+                        <i class="fa-solid fa-location-dot map-pin"></i>
+
+                        <div class="map-info">
+                            <b>مقر الشركة</b>
+                            <small>القاهرة - مصر</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- السوشيال -->
+                <div class="contact-box">
+
+                    <div class="box-title">
+                        <i class="fa-solid fa-share-nodes"></i>
+
+                        <div>
+                            <h2>تابعنا على السوشيال ميديا</h2>
+                            <p>كن على تواصل معنا عبر حساباتنا الرسمية</p>
+                        </div>
+                    </div>
+
+
+                    <div class="social-links">
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>فيسبوك</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>انستجرام</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <span>X</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>يوتيوب</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                            <span>تيك توك</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
